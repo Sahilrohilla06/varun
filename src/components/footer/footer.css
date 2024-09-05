@@ -1,0 +1,16 @@
+.foot{
+    height:50px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: flex;
+    position: fixed;
+    bottom:0px;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width:500px){
+    .foot{
+        height: 30px;
+    }
+}

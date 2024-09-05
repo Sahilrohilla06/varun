@@ -1,0 +1,54 @@
+.pic1{
+    height:200px;
+    width: 200px;
+    background-size:cover;
+    border: 2px solid black;
+    
+}
+.pic2{
+    height:200px;
+    width: 200px;
+    background-size:cover;
+    border: 2px solid black;
+}
+.pic3{
+    height:200px;
+    width: 200px;
+    background-size:cover;
+    border: 2px solid black;
+}
+.all{  
+    padding-top:100px;
+    height:300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media(min-width:200px) and (max-width:300px){
+    .all{
+        width:250px;
+        display:grid;
+        justify-content: center;
+    }
+    .pic1, .pic2, .pic3{
+        margin: 10px;
+        height:100px;
+        width:100px;
+    }
+}
+@media(width:300px){
+    .all{
+        width:300px;
+        display: flex;
+    }
+}
+@media(min-width:300px) and (max-width:600px){
+    .all{
+        height: 500px;
+        width: 600px;
+        display: flex;
+        flex-wrap:wrap;
+    }
+}
+

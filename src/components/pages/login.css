@@ -1,0 +1,17 @@
+
+.bn{
+    height: 100px;
+    width: 400px;
+    background-color: aquamarine;
+    color: black;
+    font-size: 50px;
+    border-radius:50px;
+    border: 2px solid white;
+    box-shadow: 0px 0px 1px 1px;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 500px;
+}
